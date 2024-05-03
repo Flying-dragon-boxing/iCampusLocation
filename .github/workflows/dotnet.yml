@@ -28,4 +28,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: iFakeLocation.dll
-        path: iCampusLocation/iCampusLocation/iFakeLocation/bin/Debug/net6.0/iFakeLocation.dll
+        path: iCampusLocation/iFakeLocation/bin/Debug/net6.0/iFakeLocation.dll
