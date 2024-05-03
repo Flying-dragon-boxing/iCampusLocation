@@ -1,13 +1,15 @@
-# iFakeLocation
+# iCampusLocation
+
+Fake Location Helper, forked from iFakeLocation, to help with location spoofing for Campus Running.
 
 ![](https://i.imgur.com/ELFifkA.png)
 
 ## Requirements:
 ### Windows:
-* .NET Framework 4.5 or newer (pre-installed on Windows 8 & Windows 10)  
+* .NET Framework 6.0 
 https://dotnet.microsoft.com/download/dotnet-framework
 
-* iTunes (Microsoft Store version or Win32/Win64 is fine)  
+* iTunes (Microsoft Store version or Win32/Win64 is fine)  (Apple Devices in Microsoft Store is not officially supported but is tested as usable)
 https://www.apple.com/itunes/download/
   
 * Visual C++ Redistributable for Visual Studio 2015  
@@ -66,6 +68,16 @@ https://github.com/haikieu/xcode-developer-disk-image-all-platforms/tree/master/
 
 * Your device will also have a Developer menu now shown in Settings. You can get rid of it 
   by restarting your iDevice.
+
+## How to use as a running helper:
+
+* Set any location using the app and click "Set Fake Location".
+
+* Press the "Start Locations" button to start the helper.
+
+* The helper will now run in the background and will keep the location updated. To stop the helper, press the "Stop Locations" button.
+
+* Please modify the locations in `Resources/main.html` to your desired locations.
 
 ## Help:
 Q: My device doesn't show up on the list?  
